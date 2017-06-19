@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,QAAQ,GAAG,EAAE,CAAC,IAAI,CAAC;;AAEnB,wBAAoB,EAAE,IAAI;;AAE1B,aAAS,EAAE,CAAC,CAAC;;AAEb,WAAO,EAAE,CAAC;;AAEV,aAAS,EAAE,CAAC;;AAEZ,gBAAY,EAAE,WAAW;;AAEzB,iBAAa,EAAE,aAAa;CAC/B,CAAC,CAAC;;AAEH,MAAM,CAAC,OAAO,GAAG,QAAQ,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var Constant = cc.Enum({\r\n    // 地板移动时间间隔\r\n    GROUND_MOVE_INTERVAL: 0.05,\r\n    // 单位时间地板移动速度\r\n    GROUND_VX: -5,\r\n    // 上端管道序号为0\r\n    PIPE_UP: 0,\r\n    // 下端管道序号为1\r\n    PIPE_DOWN: 1,\r\n    // 游戏失败文字\r\n    GAMEOVER_TXT: 'GAME OVER',\r\n    // 最高分文字\r\n    HIGHSCORE_TXT: 'HighScore: ',\r\n});\r\n\r\nmodule.exports = Constant;\r\n\r\n"
+  ]
+}

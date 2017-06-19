@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;AAER,eAAO,EAAE,GAAG;;AAEZ,gBAAQ,EAAE,GAAG;;AAEb,gBAAQ,EAAE,EAAE;;AAEZ,iBAAS,EAAE;AACP,uBAAS,IAAI;AACb,eAAG,EAAE,EAAE,CAAC,SAAS;SACpB;KACJ;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,YAAI,CAAC,YAAY,CAAC,EAAE,CAAC,SAAS,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;;AAEpD,YAAI,CAAC,QAAQ,GAAG,CAAC,CAAC;KACrB;;AAED,eAAW,EAAE,uBAAY;AACrB,YAAI,CAAC,QAAQ,CAAC,IAAI,CAAC,MAAM,EAAC,IAAI,CAAC,CAAC;KACnC;;AAED,UAAM,EAAE,kBAAW;AACf,YAAI,CAAC,IAAI,CAAC,CAAC,IAAI,IAAI,CAAC,QAAQ,CAAC;AAC7B,YAAI,CAAC,QAAQ,IAAI,IAAI,CAAC,OAAO,CAAC;KACjC;;AAED,UAAM,EAAE,kBAAW;;AAEf,YAAI,CAAC,QAAQ,GAAG,IAAI,CAAC,QAAQ,CAAC;;AAE9B,UAAE,CAAC,WAAW,CAAC,UAAU,CAAC,IAAI,CAAC,SAAS,EAAE,KAAK,CAAC,CAAC;KACpD;;CAOJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // 小鸟重力值\r\n        gravity: 0.5,\r\n        // 小鸟弹跳值\r\n        birdJump: 6.6,\r\n        // 动画名称\r\n        AnimName: '',\r\n        // 弹跳音效\r\n        jumpAudio: {\r\n            default: null,\r\n            url: cc.AudioClip\r\n        }\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        // 获取本身的cc.Animation对象，并播放AnimName动画\r\n        this.getComponent(cc.Animation).play(this.AnimName);\r\n        // 初始化速度为0\r\n        this.velocity = 0;\r\n    },\r\n    \r\n    onStartDrop: function () {\r\n        this.schedule(this.onDrop,0.01);\r\n    },\r\n    \r\n    onDrop: function() {\r\n        this.node.y += this.velocity;\r\n        this.velocity -= this.gravity;\r\n    },\r\n    \r\n    onJump: function() {\r\n        // 弹跳时，重设向上的速度\r\n        this.velocity = this.birdJump;\r\n        // 播放弹跳音效\r\n        cc.audioEngine.playEffect(this.jumpAudio, false);\r\n    },\r\n    \r\n    \r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

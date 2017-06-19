@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,OAAO,GAAG;AACV,gBAAY,EAAE,wBAAW;AACrB,YAAI,KAAK,GAAG,EAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC;AAC1D,eAAO,QAAQ,CAAC,KAAK,CAAC,CAAC;KAC1B;;AAED,gBAAY,EAAE,sBAAS,KAAK,EAAE;AAC1B,UAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,WAAW,EAAE,KAAK,CAAC,CAAC;KACnD;CACJ,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,OAAO,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var Storage = {\r\n    getHighScore: function() {\r\n        var score = cc.sys.localStorage.getItem('HighScore') || 0;\r\n        return parseInt(score);\r\n    },\r\n    \r\n    setHighScore: function(score) {\r\n        cc.sys.localStorage.setItem('HighScore', score);\r\n    }\r\n};\r\n\r\nmodule.exports = Storage;\r\n\r\n"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;AAER,gBAAQ,EAAE,KAAK;KAClB;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;AAED,QAAI,EAAE,cAAU,IAAI,EAAE;;AAElB,YAAI,CAAC,IAAI,GAAG,IAAI,CAAC;KACpB;;;;;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // 小鸟通过管道与否的标志位\r\n        isPassed: false,\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    init: function (type) {\r\n        // 设置管道的类型（上或下）\r\n        this.type = type;\r\n    }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

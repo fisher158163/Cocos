@@ -1,0 +1,55 @@
+2017-03-21T02:14:54.223Z - normal: Load ~/.CocosCreator/settings.json
+2017-03-21T02:14:54.229Z - normal: checking language setting...
+2017-03-21T02:14:54.230Z - normal: Language: zh
+2017-03-21T02:14:54.727Z - success: protocol editor-framework registered
+2017-03-21T02:14:54.727Z - success: protocol app registered
+2017-03-21T02:14:54.728Z - success: protocol theme registered
+2017-03-21T02:14:54.728Z - success: protocol profile registered
+2017-03-21T02:14:54.728Z - success: protocol packages registered
+2017-03-21T02:14:54.732Z - success: protocol unpack registerred
+2017-03-21T02:14:54.732Z - success: protocol disable-commonjs registerred
+2017-03-21T02:14:55.009Z - normal: connected!
+2017-03-21T02:14:55.011Z - normal: Check project /Users/liyu/Desktop/Cocos/FlappyBird
+2017-03-21T02:14:55.015Z - normal: Initializing Cocos2d
+2017-03-21T02:14:55.235Z - normal: Initializing Asset Database
+2017-03-21T02:14:55.256Z - success: protocol uuid registerred
+2017-03-21T02:14:55.256Z - success: protocol db registerred
+2017-03-21T02:14:55.256Z - success: protocol thumbnail registerred
+2017-03-21T02:14:55.257Z - normal: Loading editor/builtin packages
+2017-03-21T02:14:55.405Z - success: assets loaded
+2017-03-21T02:14:55.409Z - success: builder loaded
+2017-03-21T02:14:55.415Z - success: hierarchy loaded
+2017-03-21T02:14:55.421Z - success: inspector loaded
+2017-03-21T02:14:55.423Z - success: keystore loaded
+2017-03-21T02:14:55.427Z - success: node-library loaded
+2017-03-21T02:14:55.431Z - success: preferences loaded
+2017-03-21T02:14:55.448Z - success: project-importer loaded
+2017-03-21T02:14:55.451Z - success: project-settings loaded
+2017-03-21T02:14:55.455Z - success: ui-kit loaded
+2017-03-21T02:14:55.460Z - success: ui-grid loaded
+2017-03-21T02:14:55.465Z - success: scene loaded
+2017-03-21T02:14:55.466Z - success: sprite-editor loaded
+2017-03-21T02:14:55.523Z - success: store loaded
+2017-03-21T02:14:55.529Z - success: timeline loaded
+2017-03-21T02:14:55.529Z - normal: Loading builtin packages
+2017-03-21T02:14:55.534Z - success: anysdk loaded
+2017-03-21T02:14:55.537Z - success: asset-db-debugger loaded
+2017-03-21T02:14:55.539Z - success: code-editor loaded
+2017-03-21T02:14:55.540Z - success: color-picker loaded
+2017-03-21T02:14:55.545Z - success: console loaded
+2017-03-21T02:14:55.549Z - success: package-manager loaded
+2017-03-21T02:14:55.555Z - success: tester loaded
+2017-03-21T02:14:55.559Z - success: ui-kit-preview-extra loaded
+2017-03-21T02:14:55.563Z - success: ui-kit-preview loaded
+2017-03-21T02:14:55.567Z - success: ui-tree loaded
+2017-03-21T02:14:55.618Z - normal: Initializing project /Users/liyu/Desktop/Cocos/FlappyBird
+2017-03-21T02:14:55.621Z - normal: Loading packages
+2017-03-21T02:14:55.626Z - normal: Watching packages
+2017-03-21T02:14:55.639Z - normal: Run Application
+2017-03-21T02:14:57.326Z - success: preview server running at http://localhost:7456
+2017-03-21T02:14:57.326Z - normal: Compiling scripts...
+2017-03-21T02:14:58.963Z - normal: Compiled project javascript file successfully
+2017-03-21T02:15:04.234Z - normal: 1.4.0
+2017-03-21T02:15:09.403Z - warn: Failed to send ipc message scene:query-hierarchy to panel scene, panel not found
+2017-03-21T02:15:09.404Z - warn: Failed to send ipc message scene:query-animation-node to panel scene, panel not found
+2017-03-21T02:18:10.973Z - info: shutdown preview server
